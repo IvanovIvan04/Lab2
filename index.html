@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Правздник в каждый дом</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--Шапка сайта-->
+    <header>
+        <div class="flex">
+            <div class="logo">
+                <img src="images/logo.jpeg" width="150px">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#promo">Акции</a></li>
+                    <li><a href="#search">Поиск</a></li>
+                    <li><a href="#algorithm">Бронирование</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="fon">
+            <div class="white">
+                <h1>Подарим волшебство для Ваших детей!</h1>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="about">
+            <h3>Праздник в каждый дом</h3>
+            <p>Главная цель компании – сделать праздник незабываемым для детей и их родителей.</p>
+            <p>Предоставляем услуги организации детских праздников на нашей территории в очень интересных локациях.
+                </p>
+            <div>
+                <h3>Отзывы наших клиентов</h3>
+                <div class="reviews flex">
+                    <div class="review">
+                        <h3>Светлана</h3>
+                        <p>Спасибо большое! Дети в бурных эмоция, аниматор супер, даже взрослые участвовали, как это было все классно, энергично, здорово!
+                            Успехов вам больших!</p>
+                        <div class="img img-1">
+                        </div>
+                    </div>
+                    <div class="review">
+                        <h3>Марина </h3>
+                        <p>ДР ребенка 3 года, аниматоры молодцы, все очень хорошо подготовили!
+                            Крош отработал на 5, все дети в восторге! Шоу мыльных пузырей с погружением чудесное и волшебное! Детям хотелось немного больше контакта с пузырями!
+                            Ребят, только на счет подарка в конце шоу оговаривайте с родителями! Иногда шоколад маленьким детям дарить не стоит !</p>
+                        <div class="img img-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="search" class="search">
+            <h2>Поиск локации</h2>
+            <div class="search-form">
+                <form class="flex">
+
+                        <div>
+                            <label for="location">Регион</label>
+                            <select id="location" name="location">
+                                <option>Алтайский край</option>
+                                <option>Красноярский край</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="date">Дата мероприятия</label>
+                            <input type="date" id="date">
+                        </div>
+                        <div>
+                            <label for="count">Количество взрослых и детей</label>
+                            <input type="number" id="count" max="50">
+                        </div>
+                        <a href="#" class="">Поиск</a>
+
+
+                </form>
+            </div>
+
+        </section>
+
+        <section id="algorithm" class="algorithm">
+           <h2>Алгоритм бронирования</h2>
+                <p>Чтобы воспользоваться услугами компании необходимо:</p>
+                <ol>
+                    <li class="date">Выбрать даты праздника</li>
+                    <li class="count">Выбрать количество участников</li>
+                    <li class="location">Выбрать желаемую локацию для праздника, соответствующую условиям выше</li>
+                    <li class="zone">Зарезервировать конкретную зону на территории выбранной локации</li>
+                    <li class="service">Определить перечень дополнительных услуг</li>
+                    <li class="phone">Оформить заказ</li>
+                </ol>
+           <div class="alg-fon">
+            </div>
+        </section>
+
+        <!--Раздел с акциями-->
+        <section class="promotions">
+            <h2 id="promo">Акции</h2>
+            <div class="flex">
+                <article class="promo flex">
+                    <div class="promo-img img1">
+                    </div>
+                    <h3>Скидка до 60%. За заказ зоны (от 25 человек) в локации «Черная жемчужина»</h3>
+                    <p>Устали от городского шума, хотите провести праздник за городом в живописной локации? Заказывайте место в локации «Черная жемчужина». Здесь вас и ваших детей ждет настоящая пиратская шхуна с настоящими пиратами!
+                    </p>
+                    <a href="#">Подробнее</a>
+                </article>
+                <article class="promo flex">
+                    <div class="promo-img img2">
+                    </div>
+                    <h3>Скидка до 51% при заказе услуг аниматоров. Уютное место для организации праздников «Поляна сказок»</h3>
+                    <p>Локация «Поляна сказок» расположена в живописной загородной местности на берегу чистого озера. Есть места для организации праздника как на открытом воздухе, так и под навесом.</p>
+                    <a href="#">Подробнее</a>
+                </article>
+                <article class="promo flex">
+                    <div class="promo-img img3">
+                    </div>
+                    <h3>Скидка до 25%. Закажи праздник "Под ключ"</h3>
+                    <p>При выборе локации для 15 человек и больше, а также при заказе всех дополнительных услуг можно очень неплохо сэкономить!</p>
+                    <a href="#">Подробнее</a>
+                </article>
+            </div>
+
+        </div>
+        </section>
+        <section class="subscribe">
+            <h2>Подписка на акции</h2>
+                <div>
+                    <form>
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email">
+
+                        <a href="#">Подписаться</a>
+                    </form>
+                </div>
+        </section>
+    </main>
+
+    <footer class="flex">
+        <div class="footer-phone">
+
+        </div>
+        <p>8(800) 111-20-20</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html/login">Login</a></li>
+                <li><a href="index.html/signup">Sign up</a></li>
+                <li><a href="index.html/contact">Contact</a></li>
+                <li><a href="index.html/news">News</a></li>
+                <li><a href="index.html/return">Return</a></li>
+                <li><a href="index.html/feedback">Feedback</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
